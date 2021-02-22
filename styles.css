@@ -6,3 +6,93 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+html {
+    font-family: 'Quicksand', sans-serif;
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(#134d71, #78a7c6, #f7e4bf)
+}
+head {
+
+}
+
+.hidden {
+  display: none!important;
+}
+
+h1, h2, h3 {
+
+    text-align: center;
+    color: #ffffff;
+}
+.type-of-message {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 40%;
+    height: 14%;
+    font-style: italic;
+    font-weight: light;
+    font-size: 1.2em;
+}
+
+.radio-container {
+    display: flex;
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+#affirmation {
+    margin-right: 15px;
+}
+
+#mantra {
+    margin-right: 15px;
+    margin-left: 100px;
+}
+
+.receive-message {
+    height: 30%;
+    width: 35%;
+    background: #134d71;
+    margin: auto;
+    border-radius: 5px;
+    border-color: #134d71;
+    font-family: "Quicksand", sans-serif;
+    font-size: .9em;
+    color: white;
+
+}
+
+.created-message {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 60%;
+    height: 20%;
+}
+
+.message {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
