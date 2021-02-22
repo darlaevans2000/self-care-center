@@ -86,10 +86,10 @@ h1, h2, h3 {
     height: 20%;
 }
 
-.message {
-    color: black;
-    font-family: sans-serif;
-    font-weight: 200;
+#message {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5em;
+  color: black;
 }
 
 img {
